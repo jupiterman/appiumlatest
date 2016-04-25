@@ -1,0 +1,31 @@
+<<!--  -
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+        <class name = "Android.Automation.Test.TC1_AddingItemToCard"/>
+      <class name="Android.Automation.Test.TC2_LoginLogout"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+>>
+<<!--  
+<test name="generalTest">
+        <groups>
+            <run>
+                <include name="login"  />
+                <include name="signUp"  />
+                <include name="profileCreation"  />
+
+            </run>
+        </groups>
+
+        <classes>
+            <class name="my.test.Test_1_LoginTestCases"/>
+            <class name="my.test.Test_2_SignUpTestCases"/>
+            <class name="my.test.Test_3_CreatePeopleProfileTestCases"/>
+
+        </classes>
+    </test>
+    -->
